@@ -1,5 +1,9 @@
 import { motion } from "framer-motion"
-
+import profile from './assets/e035717e-a755-485a-86c7-c165a4f7bb80.jpg';
+import behance from './assets/5305150_behance_portfolio_behance logo_icon.svg';
+import github from './assets/8666686_github_icon.svg';
+import linked from './assets/8679367_linkedin_icon.svg';
+import twitter from './assets/11244080_x_twitter_elon musk_twitter new logo_icon.svg';
 
 function HomePage (){
     return (
@@ -20,21 +24,21 @@ function HomePage (){
                     </p>
                     <div className="box-icon">
                         <a href="https://github.com/Melgreat?tab=repositories" target="_blank" rel="noopener noreferrer">
-                            <img className="icons" src="src/assets/8666686_github_icon.svg" alt="github link"/>
+                            <img className="icons" src={github} alt="github link"/>
                         </a>
                         <a href="https://www.behance.net/amaechiibiam" target="_blank" rel="noopener noreferrer">
-                            <img className="icons" src="src/assets/5305150_behance_portfolio_behance logo_icon.svg" alt="behance link"/>
+                            <img className="icons" src={behance} alt="behance link"/>
                         </a>
                         <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
-                            <img className="icons" src="src/assets/8679367_linkedin_icon.svg" alt="linkedin link"/>
+                            <img className="icons" src={linked} alt="linkedin link"/>
                         </a>
                         <a target="_blank" rel="noopener noreferrer" href="https://x.com/home">
-                            <img className="icons" src="src/assets/11244080_x_twitter_elon musk_twitter new logo_icon.svg" alt="twitter link"/>
+                            <img className="icons" src={twitter} alt="twitter link"/>
                         </a>
                     </div>
                 </div>
                 <div className="gradient-sunset-violet">
-                    <img className="profile-pic" src="src/assets/e035717e-a755-485a-86c7-c165a4f7bb80.jpg" alt="profile-pic"/>
+                    <img className="profile-pic" src={profile} alt="profile-pic"/>
                     <div className="background"></div>
                 </div>
             </div>            

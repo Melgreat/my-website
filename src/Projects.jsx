@@ -1,7 +1,9 @@
 import React, {useState, useEffect} from "react"
 import projects from "./ProjectsArray.jsx"
 import "./Projects.css"
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
+
+
 
 
 function Projects(){
