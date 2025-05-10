@@ -19,7 +19,7 @@ function HomePage (){
                 <div className="icons-container">
                     <p className="gradient-text">Hi, I'm Melvin</p>
                     <p className="describe">I am a web developer and a UI/UX designer with a knack 
-                        for function designs that balance aestheics and functionality.
+                        for designs that balance aestheics and functionality.
                         My design philosophy is do it but don't over do it.
                     </p>
                     <div className="box-icon">
