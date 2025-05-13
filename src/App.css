@@ -13,7 +13,7 @@
 .theme-toggle-btn {
   position: fixed;
   top: 2rem;
-  right: 2rem;
+  right: 3rem;
   background-color: transparent;
   border: 2px solid currentColor;
   color: inherit;
@@ -94,11 +94,6 @@ section {
     padding: 1.5rem 1rem;
   }
 }
-* {
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
-
 
 @media (max-width: 480px) {
   .theme-toggle-btn {
@@ -115,12 +110,4 @@ section {
   section {
     padding: 1rem 0.75rem;
   }
-}
-html, body {
-  overflow-x: hidden;
-  max-width: 100vw;
-}
-
-* {
-  box-sizing: border-box;
 }
