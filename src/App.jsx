@@ -4,7 +4,7 @@ import HomePage from "./Home";
 import AboutPage from "./About";
 import Projects from "./Projects";
 import ContactSection from "./Contact";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import MyServices from "./Services.jsx";
 
@@ -15,14 +15,17 @@ function App() {
     setTheme((prev) => (prev === "dark" ? "light" : "dark"));
   };
 
+  useEffect(() =>{
+    document.body.classname = theme;
+  }, [theme])
+
   return (
     <div className={`app ${theme}`}>
-      <button onClick={toggleTheme} className="theme-toggle-btn">
-       {theme === "light" ? "🌙" : "🔆"} 
-      </button>
+      
 
       <>
-        <HeaderPage />
+        
+        <HeaderPage toggleTheme={toggleTheme} theme={theme}/>
         <main>
           <section id="home">
             <HomePage />
