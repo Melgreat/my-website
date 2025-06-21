@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import profile from './assets/e035717e-a755-485a-86c7-c165a4f7bb80.jpg';
+import profile from './assets/profile image.jpg';
 import behance from './assets/5305150_behance_portfolio_behance logo_icon.svg';
 import github from './assets/8666686_github_icon.svg';
 import linked from './assets/8679367_linkedin_icon.svg';
