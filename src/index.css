@@ -21,7 +21,6 @@
   max-width: 1000px;
   width: 100%;
   gap: 2rem;
-  position: absolute;
   flex-wrap: wrap;
   margin-top: 50px;
 }
@@ -106,7 +105,7 @@
   height: 180px;
   border-radius: 50%;
   position: relative;
-  top: 30px;
+  top: 35px;
   object-fit: contain;
   z-index: 1;
   background-color: white; /* Optional: adds contrast behind transparent images */
