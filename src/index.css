@@ -103,8 +103,8 @@
 .background {
   position: absolute;
   background: linear-gradient(90deg, #ff6a00, #ee0979);
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   border-radius: 90px;
   top: 10px;
   left: 20px;
@@ -162,8 +162,8 @@
 
   .background {
     position: absolute;
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     border-radius: 70%;
     top: 0;
     left: 0;
