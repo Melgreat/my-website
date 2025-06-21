@@ -21,6 +21,7 @@
   max-width: 1000px;
   width: 100%;
   gap: 2rem;
+  position: absolute;
   flex-wrap: wrap;
   margin-top: 50px;
 }
