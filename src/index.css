@@ -108,7 +108,7 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
   z-index: 1;
   border: 5px solid white; /* Optional: adds a clean border around the image */
 }
