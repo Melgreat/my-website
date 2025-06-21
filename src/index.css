@@ -121,7 +121,7 @@
   border-radius: 50%;
   object-fit: contain;
   z-index: 1;
-  background-color: white; /* Optional: adds contrast behind transparent images */
+  background-color: linear-gradient(90deg, #ff6a00, #ee0979); /* Optional: adds contrast behind transparent images */
 }
 
 
